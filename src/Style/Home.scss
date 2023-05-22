@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 60%;
+  height: 500px;
+  background-color: var(--color-1);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  h1 {
+    margin-bottom: 40px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+  button {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: var(--color-5);
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+}
