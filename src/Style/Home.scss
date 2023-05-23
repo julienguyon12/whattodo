@@ -11,10 +11,13 @@
   padding: 20px;
   text-align: center;
   h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
-  p {
-    margin-bottom: 40px;
+  .input-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
   button {
     width: 250px;
